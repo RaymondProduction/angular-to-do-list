@@ -22,8 +22,14 @@ export class AppComponent {
   ];
   select(task: ITask) {
     task.complete = !task.complete;
-  };
+  }
   remove(index: number) {
     this.tasks.splice(index, 1);
+  }
+  add(title: string) {
+    this.tasks.push({
+      title: 'морковь',
+      complete: false
+    })
   }
 }
