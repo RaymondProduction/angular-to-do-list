@@ -15,4 +15,7 @@ export class AppComponent {
     {title: 'кефир',
     complete: false},
   ];
+  select(task) {
+    task.complete = !task.complete;
+  }
 }
