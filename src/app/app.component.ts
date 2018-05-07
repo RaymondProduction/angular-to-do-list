@@ -1,5 +1,10 @@
 import { Component } from '@angular/core';
 
+interface ITask {
+  title: string;
+  complete: boolean;
+}
+
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -15,7 +20,10 @@ export class AppComponent {
     {title: 'кефир',
     complete: false},
   ];
-  select(task) {
+  select(task: ITask) {
     task.complete = !task.complete;
+  };
+  remove(index: number) {
+    this.tasks.splice(index, 1);
   }
 }
