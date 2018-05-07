@@ -28,7 +28,7 @@ export class AppComponent {
   }
   add(title: string) {
     this.tasks.push({
-      title: 'морковь',
+      title,
       complete: false
     })
   }
