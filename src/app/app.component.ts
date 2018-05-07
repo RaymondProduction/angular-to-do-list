@@ -8,8 +8,11 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'Raymond';
   tasks = [
-    'хлеб',
-    'колбаса',
-    'кефир'
+    {title: 'хлеб',
+    complete: false},
+    {title: 'колбаса',
+     complete: true},
+    {title: 'кефир',
+    complete: false},
   ];
 }

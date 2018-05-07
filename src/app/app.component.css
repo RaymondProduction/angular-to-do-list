@@ -1,0 +1,20 @@
+ul {
+    margin: 0;
+    padding: 0;
+}
+li {
+    list-style: none;
+    padding: 10px;
+    margin: 5px;
+    border: 3px solid gray;
+}
+
+.complete {
+    text-decoration: line-through;
+    opacity: 0.5;
+}
+
+img {
+    width: 64px;
+    height: 64px;
+}
