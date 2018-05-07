@@ -30,6 +30,6 @@ export class AppComponent {
     this.tasks.push({
       title,
       complete: false
-    })
+    });
   }
 }
