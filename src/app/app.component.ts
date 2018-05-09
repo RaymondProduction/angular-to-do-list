@@ -11,7 +11,7 @@ interface ITask {
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Raymond';
+  title = 'To do List';
   tasks = [
     {title: 'хлеб',
     complete: false},
